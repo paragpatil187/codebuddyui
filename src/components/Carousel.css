@@ -1,0 +1,38 @@
+.crousel{
+    margin-top: 25%;
+    width:80%;
+    margin-left: 10%;
+    display:flex;
+    margin-right: 20%;
+    gap:3%;
+    overflow: scroll;
+    overflow-y: hidden;
+    
+    
+
+}
+.crouseldiv{
+    background-color: transparent;
+}
+.crousel>img{
+    width:60%
+}
+.item{
+    background-color: rgb(11, 11, 11);
+    font-size: 15px;
+    color:white
+}
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+
+}
+.next{
+    right:0;
+    border-radius: 100%;
+
+}
+.prev{
+    left:0;
+    border-radius: 100%;
+}
